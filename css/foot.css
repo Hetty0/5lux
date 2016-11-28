@@ -1,0 +1,98 @@
+#foot_container{
+	width: 100%;
+	background: url('../img/footer_container_bg.jpg') center;
+	border-top: 1px solid #ccc;
+}
+#foot_container a{
+	font-size: 12px;
+}
+/*鼠标划上a标签样式*/
+#foot_container a:hover{
+	color: #333;
+	text-decoration:underline;
+}
+/*fooot_top开始*/
+.foot_top{
+	width: 1210px;
+	height: 116px;
+	border-bottom: 1px solid #c9c9c9;
+	margin: 0 auto;
+}
+.foot_top dl{
+	width: 242px;
+	height: 64px;
+	float: left;
+	margin-top: 26px;
+}
+.foot_top dl dt{
+	width: 64px;
+	height: 64px;
+	padding-left: 10px;
+	padding-right: 5px;
+	float: left;
+}
+.foot_top dl dd{
+	width: 160px;
+	padding-top: 8px;
+	float: left;
+}
+/*foot_top结束*/
+
+/*foot_ctr开始*/
+.foot_ctr {
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 100px;
+}
+.foot_ctr > li{
+	float: left;
+	width: 185px;
+}
+.foot_ctr > li h4{
+	margin-bottom: 20px;
+}
+
+.foot_ctr .ft_app{
+	width: 140px;
+}
+.foot_ctr .ft_blog{
+	width: 125px;
+}
+/*foot_ctr结束*/
+
+/*foot_btm开始*/
+.foot_btm {
+	width: 1210px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+.foot_btm a {
+	padding: 0 6px;
+	color: #fff;
+}
+
+.foot_btm .foot_class{
+	height: 66px;
+	line-height: 66px;
+}
+.foot_btm a:hover{
+	text-decoration: underline;
+	color: #fff !important;
+}
+.foot_btm .foot_img {
+	margin-top: 23px;
+	padding-bottom: 15px;
+}
+.foot_btm .foot_img a {
+	display: inline-block;
+	width: 108px;
+	height: 40px;
+	padding: 0;
+}
+ 
+

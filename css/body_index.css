@@ -1,0 +1,702 @@
+/*banner开始*/
+.banner{
+	width: 100%;
+	height: 520px;
+	position: relative;
+	overflow: hidden;
+}
+.banner_move {
+	position: absolute;
+	height: inherit;
+	left: 0;
+}
+/*banner ul清除浮动*/
+.banner_move:after {
+	content: ',';
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.banner .banner_move li{
+	height: inherit;
+	float: left;
+	overflow: hidden;
+}
+.banner a{
+	width: inherit;
+	height: inherit;
+	display: inline-block;
+}
+.banner_move img{
+	height: inherit;
+	width: inherit;
+}
+/*banner左右按钮*/
+.banner_lt, .banner_rt, .banner_lt img, .banner_rt img {
+	width: 29px;
+	height: 49px;
+}
+.banner_lt, .banner_rt {
+	position: absolute;
+	top: 200px;
+	cursor: pointer;
+}	
+.banner_lt {
+	left: 130px;
+}
+.banner_rt {
+	right: 130px;
+}
+/*banner下方切换圆点*/
+.banner_dot {
+	height: 16px;
+	position: absolute;
+	bottom: 10px;
+	left: 46%;
+	overflow: hidden;
+	background: rgba(0,0,0,0.2);
+	border-radius: 10px;
+}
+.banner_dot div {
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin: 2px 6px;
+	background: #fff;
+	border-radius: 50%;
+}
+.banner_dot div:hover {
+	background: #d00000;
+}
+.banner_dot .active {
+	background: #d00000;
+}
+/*banner 结束*/
+
+/*main_content 开始*/
+.main_content {
+	width: 1210px;
+	margin: 0 auto;
+}
+/*flagship开始*/
+.flagship_title {
+	margin: 40px 0 28px 0;
+	height: 51px;
+}
+.flagship_cont li {
+	float: left;
+	position: relative;
+}
+.flagship_cont li a {
+	display: inline-block;
+}
+.flagship_cont .show_person {
+	height: 329px;
+}
+.flagship_cont .show_person li{
+	width: 234px;
+	height: 329px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.flagship_cont .brand_hide {
+	position: absolute;
+	bottom: 1px;
+	left: 30px;
+	background: #fff;
+	width: 106px;
+	height: 54px;
+	padding: 0 34px;
+	overflow: hidden;
+	font-size: 14px;
+	text-align: center;
+	color: #000;
+}
+.flagship_cont .brand_hide span {
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #000;
+	margin: 0 auto;
+	margin-bottom: 28px;
+}
+.flagship_cont .brand_hide img {
+	width: 60px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/*hotstore开始*/
+.hotstore {
+	position: relative;
+	height: 240px;
+	overflow: hidden;
+}
+.hotstore p {
+	overflow: hidden;
+	height: 60px;
+}
+.hotstore span {
+	width: 18px;
+	height: 18px;
+	margin-top: 20px;
+	display: block;
+	float: right;
+	cursor: pointer;
+}
+.hotstore .hot_pre {
+	background: url('../img/share02.png') no-repeat -160px -384px;
+}
+.hotstore .hot_next {
+	background: url('../img/share02.png') no-repeat -180px -384px;
+	margin-left: 20px;
+}
+.hotstore_cont {
+	width: 3630px;
+	height: 180px;
+	overflow: hidden;
+	position: absolute;
+}
+.hotstore_cont li {
+	width: 1210px;
+	height: inherit;
+}
+.hotstore_cont li > div{
+	float: left;
+	position: relative;
+	width: 165px;
+	height: 81px;
+	border: 1px solid #dfdfdf;
+	margin-right: 6px;
+	margin-bottom: 7px;
+}
+.hotstore_cont li div img, .hotstore_cont li div p {
+	width: 107px;
+	height: 54px;
+	margin-left: 29px;
+	display: block;
+}
+.hotstore_cont li div img {
+	margin-top: 14px;
+}
+.hotstore_cont li div p {
+	position: absolute;
+	opacity: 0;
+	top: 14px;
+	text-align: center;
+}
+.hotstore_cont li div a {
+	margin-top: 12px;
+	font-size: 18px;
+}
+.hotstore_cont li div p span {
+	display: block;
+	margin: 0 auto;
+	width: 20px;
+	height: 2px;
+	background: #000;
+}
+/*四个边框div样式*/
+.topline{
+	height: 1px;
+	width: 0;
+	position: absolute;
+	top: -1px;
+	left:0;
+	background: #000;
+}
+.rightline{
+	height: 0px;
+	width: 1px;
+	position: absolute;
+	right: -1px;
+	bottom:-1px;
+	background: #000;
+}
+.bottomline{
+	height: 1px;
+	width: 0;
+	position: absolute;
+	bottom: -1px;
+	right:-1px;
+	background: #000;
+}
+.leftline{
+	height: 0;
+	width: 1px;
+	position: absolute;
+	left: -1px;
+	top:-1px;
+	background: #000;
+}
+/*flagship 结束*/
+
+/*hot_items 开始*/
+
+.hot_items {
+	position: relative;
+	height: 674px;
+	overflow: hidden;
+}
+.hot_items_title {
+	height: 112px;
+}
+.hot_items_tag {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.hot_items_tag span {
+	display: inline-block;
+	width: 398px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	background: #999;
+	font-size: 14px;
+	float: left;
+	margin-right: 8px;
+}
+.hot_items_tag .active {
+	background: #000;
+}
+.hot_items_box {
+	position: absolute;
+	height: 517px;
+	overflow: hidden;
+}
+.hot_items_box li {
+	float: left;
+	overflow: hidden;
+}
+.hot_items_box li .hot_items_lt {
+	width: 368px;
+	height: inherit;
+	float: left;
+}
+.hot_items_lt a, .hot_items_lt img {
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+.hot_items_rt a {
+	display: block;
+}
+.hot_items_box li .hot_items_rt {
+	width: 833px;
+	height: inherit;
+	float: left;
+	margin-left: 9px;
+	overflow: hidden;
+}
+.hot_items_rt > div {
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #ccc;
+	font-size: 13px;
+} 
+.hot_items_rt p, .hot_items_rt a{
+	margin: 0 auto;
+	position: relative;
+}
+.hot_items_rt > div p span {
+	display: block;
+}
+.hot_items_good_sm img, .hot_items_good_mid img{
+	width: 150px;
+	height: 150px;
+}
+.hot_items_good_sm {
+	width: 222px;
+	height: 248px;
+	margin-bottom: 8px;
+	margin-right: 8px;
+}
+.hot_items_good_lg {
+	width: 367px;
+	height: 248px;
+	margin-right: 7px;
+}
+.hot_items_good_lg p {
+	margin-left: 70px;
+	margin-top: 20px;
+	float: left;
+}
+.hot_items_good_lg img {
+	width: 180px;
+	height: 180px;
+	margin-top: 28px;
+	float: left;
+}
+.hot_items_good_mid {
+	width: 271px;
+	height: 255px;
+	margin-right: 7px;
+}
+/*明星同款商品列表开始*/
+#hot_item_li2 .hot_items_lt, #hot_item_li2 .hot_items_lt img {
+	height: 517px;
+	width: 398px;
+}
+#hot_item_li2 .hot_items_lt {
+	float: left;
+}
+/*设置商品上面的覆盖div*/
+#hot_item_li2 .hot_items_lt div {
+	height: 517px;
+	width: 398px;
+	background: url(../img/darwin_mask_bg.png);
+	position: absolute;
+	display: none;
+}
+#hot_item_li2 .hot_items_rt > div div {
+	height: 255px;
+	width: 398px;
+	background: url(../img/darwin_mask_bg.png);
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+.hot_items_lt div {
+	height: 517px;
+}
+#hot_item_li2 .hot_items_rt{
+	width: 812px;
+	height: 517px;
+	float: right;
+	overflow: hidden;
+	margin-left: 0;
+}
+#hot_item_li2 .hot_items_rt > div, #hot_item_li2 .hot_items_rt > div img{
+	width: 398px;
+	height: 255px;
+	border: 0;
+	position: relative;
+}
+#hot_item_li2 .hot_items_rt > div {
+	margin-left: 6px;
+	margin-bottom: 10px;
+}
+#hot_item_li2 div p {
+	width: 260px;
+	height: 120px;
+	padding-top: 20px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 auto;
+}
+#hot_item_li2 div p a{
+	color: #fff;
+}
+#hot_item_li2 div p span {
+	line-height: 28px;
+	display: block;
+	text-align: center;
+}
+#hot_item_li2 div p b {
+	width: 18px;
+	height: 3px;
+	background: #fff; 
+	display: block;
+	margin: 12px auto;
+}
+#hot_item_li2 div p i {
+	line-height: 28px;
+	display: block;
+	font-style: normal;
+	text-align: center;
+	font-size: 14px;
+}
+#hot_item_li2 .hot_items_lt p {
+	margin: 190px 68px;
+}
+#hot_item_li2 .hot_items_rt p {
+	margin: 40px 68px;
+}
+/*hot_items结束*/
+
+/*shopping_mall开始*/
+/*shopping_mall导航*/
+.shopping_mall_title, .shopping_mall img, .promotion_title, .promotion_title img{
+	height: 120px;
+}
+.shopping_mall_nav {
+	height: 50px;
+}
+.shopping_mall_nav li{
+	width: 234px;
+	float: left;
+	position: relative;
+	margin-right: 8px;
+	height: 50px;
+	text-align: center;
+	font-size: 14px;
+	overflow: hidden;
+}
+.shopping_mall_nav li a{
+	position: absolute;
+	top: 0;
+	display: block;
+	background: #333;
+}
+.shopping_mall_nav li span{
+	display: block;
+	width: inherit;
+	height: inherit;
+	background: #999; 
+	color: #fff;
+	line-height: 50px;
+}
+.shopping_mall_nav li b{
+	font-weight: normal;
+	width: 223px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	display: block;
+	background: #333;
+	border: 1px solid #fff;
+	margin: 4px;
+}
+
+/*shopping_mall商品列表*/
+/*goodstitle开始*/
+.goodstitle {
+	overflow: hidden;
+}
+.goodstitle img {
+	height: 60px;
+	width: 250px;
+	float: left;
+}
+.goodstitle .rightbtn {
+	float: right;
+	overflow: hidden;
+	height: 60px;
+}
+.goodstitle .rightbtn a {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 60px;
+	float: left;
+	margin-right: 6px;
+}
+.goodstitle .rightbtn span {
+	display: inline-block;
+	width: 18px;
+	height: 60px;
+	background: url('../img/share02.png') no-repeat -470px -360px;
+	float: left;
+}
+/*goods开始*/
+.goods {
+	overflow: hidden;
+}
+/*goods_lt开始*/
+.goods_lt {
+	width: 220px;
+	height: 366px;
+	border: 1px solid #ccc;
+	padding: 4px 9px 0 9px;
+	margin-right: 8px;
+	float: left;
+}
+.goos_lt_top {
+	overflow: hidden;
+	border-bottom: 1px dashed #d4d4d4;
+	padding-bottom: 16px;
+}
+.goos_lt_top li {
+	float: left;
+	width: 110px;
+	line-height: 36px;
+	height: 36px;
+}
+.goos_lt_top li a {
+	font-size: 14px;
+	color: #666;
+
+}
+.goos_lt_top li a:hover {
+	color: #b28247;
+}
+.goods_lt_btm {
+	height: 150px;
+	margin-top: 14px;
+}
+.goods_lt_btm .relative {
+	position: relative;
+	height: 114px;
+	overflow: hidden;
+}
+.goods_lt_btm ul {
+	position: absolute;
+	height: 114px;
+	width: 660px;
+	overflow: hidden;
+}
+.goods_lt_btm ul li {
+	float: left;
+	width: 104px;
+	height: 64px;
+	margin-right: 6px;
+}
+.goods_lt_btm ul li a{
+	display: inline-block;
+}
+.goods_lt_btm ul li img {
+	width: 90px;
+	height: auto;
+	border: 0;
+	margin: 0 2px 12px 8px;
+} 
+/*.goods_lt_btm 切换选项卡*/
+.goods_lt_btm p {
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+}
+.goods_lt_btm p i {
+	width: 0.75em;
+	height: 0.75em;
+	border-radius: 50%;
+	background: #666;
+	margin: 0 5px;
+	margin-bottom: 2px;
+	display: inline-block;
+	cursor: pointer;
+}
+.goods_lt_btm p i:hover {
+	background: #c77f40;
+}
+.goods_lt_btm p .active {
+	background: #c77f40;
+}
+/*设置方向箭头*/
+.goods_lt_btm p span {
+	display: inline-block;
+	width: 8px;
+	height: 14px;
+	margin-top: 9px;
+	cursor: pointer;
+}
+.goods_lt_btm p .lt_arrow {
+	background: url('../img/share02.png') no-repeat -239px -384px;
+	margin-right: 5px;
+}
+.goods_lt_btm p .rt_arrow {
+	background: url('../img/share02.png') no-repeat -267px -384px;
+	margin-left: 5px;
+}
+
+/*goods_mid开始*/
+.goods_mid {
+	width: 390px;
+	height: 370px;
+	border: 1px solid #ccc;
+	position: relative;
+	float: left;
+}
+.goods_mid img {
+	width: inherit;
+	height: inherit;
+	display: inline-block;
+}
+.goods_mid .mid_info {
+	position: absolute;
+	width: 250px;
+	height: 90px;
+	background: url('../img/darwin_mask_bgfff.png');
+	bottom: 10px;
+	left: 70px;
+	text-align: center;
+}
+.goods_mid .mid_info span {
+	font-size: 13px;
+	display: block;
+}
+.goods_mid .mid_info b {
+	width: 20px;
+	height: 2px;
+	display: block;
+	background: #000;
+	margin: 5px auto;
+}
+.goods_mid .mid_info p {
+	font-size: 17px;
+	line-height: 17px;
+}
+/*goods_rt开始*/
+.goods_rt {
+	width: 566px;
+	float: right;
+	overflow: hidden;
+}
+.goods_rt div {
+	width: 274px;
+	height: 180px;
+	border: 1px solid #ccc;
+	margin-left: 7px;
+	margin-bottom: 7px;
+	float: left;
+	overflow: hidden;
+}
+.goods_rt div a {
+	display: inline-block;
+}
+.goods_rt div img {
+	width: inherit;
+	height: inherit;
+}
+/*shopping_mall结束*/
+
+/*promotion开始*/
+.promotion a, .promotion img{
+	display: block;
+}
+.pro_goods_top {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.pro_goods_top div {
+	float: left;
+	margin-left: 12px;
+}
+.pro_goods_mid {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.pro_goods_mid div {
+	float: left;
+	margin-right: 12px;
+}
+.pro_goods_bottom {
+	overflow: hidden;
+}
+.pro_goods_bottom .pro_btm_lt {
+	width: 610px;
+	float: left;
+	overflow: hidden;
+}
+.pro_goods_bottom .pro_btm_lt > div {
+	width: 192px;
+	height: 63px;
+	border: 1px solid #ccc;
+	float: left;
+	position: relative;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+.pro_goods_bottom .pro_btm_rt {
+	float: right;
+	height: 138px;
+	width: 600px;
+	overflow: hidden;
+}
+/*商品部分完成*/
+

@@ -1,0 +1,364 @@
+body{
+	overflow-y:scroll; 
+}
+/*页面底部APP下载*/
+.download_app_wrap {
+	width: 100%;
+	height: 64px;
+	position: fixed;
+	bottom: 0;
+	background: rgba(0,17,34,0.9);
+}
+.download_app {
+	width: 1210px;
+	margin: 0 auto;
+}
+.download_app .fixed_code {
+	position: absolute;
+	right: 240px;
+	bottom: 0;
+}
+.download_app .fixed_close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 27px;
+	right: 22px;
+	cursor: pointer;
+}
+/*页面右侧栏*/
+#right_menu {
+	position: fixed;
+	height: 100%;
+	right: 0;
+	top: 0;
+	z-index: 5;
+}
+#right_menu dl {
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+#right_menu dt {
+	width: 35px;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #000;
+}
+/*两个ul下li的公共样式*/
+.menu_mid > ul li, .menu_btm > ul li {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+/*上面的ul*/
+#right_menu .menu_mid {
+	position: absolute;
+	width: 35px;
+	height: 234px;
+	left: 0;
+	top: 30%;
+}
+/*每个li中的背景图设置*/
+/*menu_cart*/
+#right_menu .menu_cart {
+	background: url('../img/share02.png') no-repeat -88px -156px #333;
+}
+#right_menu .menu_cart:hover {
+	background: url('../img/share02.png') no-repeat -88px -121px #c69c6d;
+}
+/*menu_assets*/
+#right_menu .menu_assets {
+	background: url('../img/share02.png') no-repeat -140px -154px #333;
+}
+#right_menu .menu_assets:hover {
+	background: url('../img/lux_index.png') no-repeat  -272px -54px #c69c6d;
+}
+/*menu_like*/
+#right_menu .menu_like {
+	background: url('../img/share02.png') no-repeat -202px -155px #333;
+}
+#right_menu .menu_like:hover {
+	background: url('../img/share02.png') no-repeat -203px -126px #c69c6d;
+}
+/*menu_serve*/
+#right_menu .menu_serve {
+	background: url('../img/share02.png') no-repeat -258px -125px #333;
+}
+#right_menu .menu_serve:hover {
+	background: url('../img/share02.png') no-repeat -258px -125px #c69c6d;
+}
+
+/*下面的ul*/
+#right_menu .menu_btm {
+	position: absolute;
+	width: 35px;
+	height: 140px;
+	bottom: 35px;
+	left: 0;
+}
+/*menu_wx*/
+#right_menu .menu_wx {
+	background: url('../img/share02.png') no-repeat -312px -155px #333;
+}
+#right_menu .menu_wx:hover {
+	background: url('../img/lux_index.png') no-repeat -475px -52px #c69c6d;
+}
+/*menu_pen*/
+#right_menu .menu_pen {
+	background: url('../img/share02.png') no-repeat -374px -157px #333;
+}
+#right_menu .menu_pen:hover {
+	background: url('../img/lux_index.png') no-repeat -124px -52px #c69c6d;
+}
+/*menu_tel*/
+#right_menu .menu_tel {
+	background: url('../img/line_bg.png') no-repeat 10px 9px #333;
+}
+#right_menu .menu_tel:hover {
+	background: url('../img/line_bg.png') no-repeat 10px -19px #c69c6d;
+}
+/*menu_gotop*/
+#right_menu .menu_gotop {
+	background: url('../img/share02.png') no-repeat -437px -153px #333;
+}
+#right_menu .menu_gotop:hover {
+	background: url('../img/lux_index.png') no-repeat -401px -52px #c69c6d;
+}
+/*鼠标划上时tab左边的提示div*/
+#right_menu .tabtip {
+	display: none;
+	position: absolute;
+	right: 35px;
+	top: 0;
+	background: #fff;
+	border: 1px solid rgb(228, 228, 228);
+	border-right: none;
+	font-size: 14px;
+}
+#right_menu .tabtip span {
+	display: inline-block;
+	width: 99px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+}
+#right_menu .tabtip b {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-family: '\5b8b\4f53';
+	top: 10px;
+	right: -8px;
+	color: #fff;
+}
+
+/*右边栏购物袋*/
+#right_menu dd {
+	/*width: 294px;*/
+	width: 0;
+	float: left;
+	background: #fff;
+	height: 100%;
+}
+#right_menu dd h3 {
+	width: 251px;
+	margin: 0 auto;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 8px;
+	font-size: 16px;color: #555555;
+	border-bottom: 1px solid #cbcbcb;
+	position: relative;
+}
+#right_menu dd h3 span {
+	position: absolute;
+	right: 0;
+	top: 13px;
+	cursor: pointer;
+	width: 11px;
+	height: 11px;
+	background: url('../img/lux_index.png') -8px -187px no-repeat;
+}
+#right_menu dd .menu_shopping_box {
+	width: 251px;
+	margin: 0 auto;
+	margin-top: 165px;
+	display: none;
+}
+#right_menu dd .menu_shopping_box img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+#right_menu dd .menu_shopping_box p {
+	font-size: 16px;
+	text-align: center;
+	color: #555555;
+}
+/*添加到购物车的弹框*/
+.newAddGood {
+	box-shadow: 0 0 4px #999;
+	-webkit-box-shadow: 0 0 4px #999;
+	-moz-box-shadow: 0 0 4px #999;
+	width: 460px;
+	padding: 10px 10px 15px 20px;
+	position: absolute;
+	top: -60px;
+	left: -490px;
+	background: #fff;
+	z-index: 2;
+	display: none;
+}
+.newAddGood .close_icon {
+	cursor: pointer;
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	top: 10px;
+	right: 10px;
+	position: absolute;
+	background: url('../img/share02.png') no-repeat -217px -263px;
+}
+.newAddGood .mcar_txt {
+	overflow: hidden;
+	width: 447px;
+	padding: 20px 0;
+	border-bottom: 1px dotted #c9c9c9;
+}
+ .mcar_txt > i {
+	float: left;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../img/share02.png') no-repeat -7px -254px;
+}
+ .mcar_txtx {
+	float: left;
+	padding-left: 20px;
+}
+.mcar_txtx p {
+	font-size: 12px;
+}
+.mcar_line2 a {
+	color: #d63f3f;
+	text-decoration: underline;
+}
+/*同类商品推荐*/
+.mcar_similar_tlt {
+	line-height: 40px;
+} 
+.mcar_similar_goods {
+	overflow: hidden;
+}
+#right_menu .mcar_similar_goods li {
+	width: 90px;
+	float: left;
+	height: auto;
+	margin-right: 6px;
+	padding: 15px 8px;
+	text-align: center;
+	border-bottom: 1px solid #c9c9c9;
+	background: #fff;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.mcar_similar_goods li img {
+	width: 80px;
+	margin-bottom: 22px;
+}
+.mcar_similar_goods li .mcart_goodsInfo {
+	width: 35px;
+	height: 35px;
+}
+.mcar_similar_goods li span {
+	color: #c8a985;
+}
+/*购物袋商品样式*/
+.mybag {
+	width: 264px;
+	margin: 0 auto;
+	text-align: center;
+}
+.mybag ul li {
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #bcbcbc;
+	height: 50px;
+	line-height: 50px;
+}
+.mybag ul li img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: inline-block;
+}
+.mybag .mbag_txt {
+	float: left;
+	width: 70px;
+	height: 40px;
+	line-height: 20px;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: 5px;
+	color: #363636;
+	display: inline-block;
+}
+.mybag .mbag_num {
+	float: left;
+	width: 28px;
+	line-height: 45px;
+	font-size: 14px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.mybag .mbag_price {
+	float: left;
+	width: 90px;
+	color: rgb(201, 0, 2);
+	line-height: 45px;
+	font-size: 14px;
+	font-weight: normal;
+}
+/*总计部分*/
+.mybag p {
+	width: 100%;
+	padding: 20px 0;
+	line-height: 20px;
+	font-size: 14px;
+	color: #555555;
+}
+.mbag_num_total {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.mbag_price_total {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.mybag .shop_btn {
+	color: #fff;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 16px;
+	margin-top: 40px;
+	background: url('../img/right_menu_btn_bg.png') no-repeat 180px center rgb(201, 0, 2);
+}
+
+

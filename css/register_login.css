@@ -1,0 +1,40 @@
+.topwrap {
+	width: 100%;
+}
+.top {
+	height: 90px;
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: Helvetica;
+}
+.top .logo {
+	width: 347px;
+	float: left;
+	text-align: center;
+	line-height: 82px;
+}
+.logo a{
+	float: left;
+}
+.top .logo span {
+	float: left;
+	font-size: 18px;
+	color: #949292;
+	padding-left: 10px;
+}
+.top .regi_tel {
+	width: 178px;
+	float: right;
+}
+/*top 右边的联系电话*/
+.top .regi_tel {
+	background: url('../img/8-132_03.jpg') no-repeat;
+	line-height: 27px;
+	height: 27px;
+	margin-top: 62px;
+	font-size: 15px;
+	color: #000;
+	text-align: right;
+}

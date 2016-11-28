@@ -1,0 +1,134 @@
+.classify{
+	background: #CF0101;
+	color: #fff;
+	display: inline-block;
+	width: 130px;
+	height: 38px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+}
+#classify01{
+	width: 130px;
+	min-height: 585px;
+	display: none;
+	position: absolute;
+	z-index: 3;
+}
+.leftmenu ul > li{
+	position: relative;
+	width: inherit;
+	background: #fff;
+	opacity: 0.85;
+}
+.leftmenu .lmenu_group{
+	position: relative;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	padding-left: 48px; 
+	background:url("../img/brand_category1.png") no-repeat;
+}
+.leftmenu ul li .menu_show{
+	top: 0;
+	display: none;
+	width: 800px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 130px;
+	min-height: 220px;
+}
+.leftmenu .menu_show .showshop{
+	min-width: 605px;
+	max-width: 750px;
+	border-bottom: 1px solid #d7d7d7;
+	margin: 10px 0 10px 20px;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	line-height: 25px;
+}
+.leftmenu .menu_show .showindex{
+	float: left;
+	padding-left: 25px;
+	width: 590px;
+	height: 70px;
+}
+.leftmenu .menu_show .showindex a{
+	display: block;
+	width: 115px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	background: #cf0201;
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+}
+.leftmenu .menu_show h2{
+	float: left;
+	width: 105px;
+	padding-left: 25px;
+	text-align: left;
+}
+.leftmenu .menu_show h2 a{
+	font-size: 14px;
+	color: #CF0201;
+}
+.leftmenu .menu_show .showshop .showbag{
+	max-width: 500px;
+	min-height: 25px;
+	line-height: 25px;
+	float: left;
+}
+.leftmenu .menu_show .showshop .showbag>a,.leftmenu .menu_show .beautytop .showbag>a{
+	color: #757272;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+.leftmenu .menu_show .beautytop{
+	border-bottom: #d7d7d7 1px solid;
+	margin: 10px 0 0 20px;
+	float: left;
+	line-height: 23px;
+}
+.leftmenu .menu_show .beautytop .showbag{
+	width: 560px;
+	float: left;
+}
+.leftmenu .menu_show .beautytop .showbag .show_part{
+	float: left;
+	width: 50%;
+}
+.leftmenu .menu_show .beautytop .showbag .show_part h3{
+	font-style: normal;
+	text-align: left;
+}
+.leftmenu .menu_show .beautytop .showbag .show_part .show_mini a{
+	font-size: 12px;
+	padding-right: 10px;
+	display: inline-block;
+	color: #999999;
+	line-height: 24px;
+}
+/*鼠标在li上背景图片变*/
+ .leftmenu ul li:hover{
+ 	opacity: 1;
+} 
+/*li背景向标*/
+.leftmenu ul li i{
+	float: right;
+	margin-right: 2px;
+	width: 20px;
+	height: 36px;
+	display: block;
+	background: url("") no-repeat  -304px -33px;
+}
+/*鼠标在右边的div中的a标签上*/
+.leftmenu .menu_show a:hover{
+	text-decoration: underline;
+}

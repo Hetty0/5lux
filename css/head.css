@@ -1,0 +1,364 @@
+/*头部广告开始*/
+.deliver_rule{
+	width: 100%;
+	height: 32px;
+}
+.rule_box{
+	width: 600px;
+	height: 416px;
+	background: url("../img/rule_box.png") no-repeat;
+	position: fixed;
+	top: 5%;
+	left: 50%;
+	margin-left: -300px;
+	display: none;
+	z-index: 5;
+}
+.rule_box .rule_colse{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: url('../img/rule_colse.png') no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+/*头部广告结束*/
+
+/*head开始*/
+.headwrap{
+	background: #f2f2f2;
+}
+.head{
+	width: 1210px;
+	height: 30px;
+	color: #666;
+	margin: 0 auto;
+}
+.head_left{
+	float: left;
+	overflow: hidden;
+}
+.head_left a{
+	background: url('../img/home.png') no-repeat 2px 7px;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	padding-left: 4px;
+}
+.head_left b{
+	width: 1px;
+	height: 12px;
+	float: left;
+	position: relative;
+	top: 9px;
+	background: url(../img/head_line.jpg) no-repeat;
+}
+.head_left p{
+	width: 200px;
+	padding-left: 6px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+}
+.head_left p .phone{
+	width: 25px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	background: url('../img/brandstore_share.png') no-repeat -348px -338px;
+}
+.head_user {
+	width: 300px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.head_right{
+	width: 486px;
+	float: right;
+}
+.head_right > ul > li{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	background: url('../img/head_line.jpg') no-repeat right center;
+	background-size: 1px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.head_right .register b{
+	float: left;
+	width: 22px;
+	height: 24px;
+	margin-right: 6px;
+	background: url('../img/gift.gif') no-repeat;
+}
+.head_right .my5lux{
+	text-align: left;
+	padding-right: 0;
+	position: relative;
+	width: 114px;
+	background: url('../img/brandstore_share.png') no-repeat -253px -436px;
+}
+.head_right .my5lux > b{
+	float: right;
+	width: 1px;
+	height: 12px;
+	margin-top: 9px;
+	background: url('../img/head_line.jpg') no-repeat right center; 
+}
+.head_right .my5lux > a{
+	padding-right: 16px;
+}
+.head_right .my5lux ul{
+	display: none;
+	text-align: center;
+	width: 130px;
+	position: absolute;
+	left: 0;
+	background: white;
+}
+.head_right .help{
+	width: 53px;
+}
+.head_right .download{
+	text-align: left;
+	background: url('../img/brandstore_share.png') no-repeat -210px -368px;
+	width: 117px;
+	padding: 0 0 0 11px;
+	position: relative;
+	z-index: 1;
+}
+.head_right .download > a{
+	display: inline-block;
+	width: 118px;
+	height: 30px;
+	text-align: left;
+}
+.head_right .download ul{
+	width: 118px;
+	text-align: center;
+	background: #fff;
+	padding: 0 5px;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	display: none;
+}
+.head_right .download ul img{
+	width: 106px;
+	height: 106px;
+}
+.head_right .download ul li{
+	font-size: 13px;
+	line-height: 20px;
+}
+.head_right .download ul span{
+	color: #d00000;
+	font-size: 16px;
+}
+/*head结束*/
+
+/*mid_head开始*/
+.mid_headwrap{
+	width: 100%;
+	background: #fff;
+}
+.mid_head{
+	width: 1210px;
+	margin: 0 auto;
+	height: 110px;
+}
+.mid_head .logo, .mid_head .toshoppe, .mid_head .search_box, .mid_head .shopping_cart{
+	float: left;
+}
+.mid_head .logo{
+	width: 244px;
+	height: 110px;
+}
+.mid_head .logo a{
+	display: inline-block;
+	height: inherit;
+}
+.mid_head .toshoppe{
+	cursor: pointer;
+	width: 142px;
+	height: 80px;
+	margin-left: 46px;
+	margin-top: 14px;
+}
+.mid_head .search_box{
+	width: 387px;
+	height: 68px;
+	margin-top: 36px;
+	margin-left: 53px;
+}
+.mid_head .search_box .txt{
+	border: 2px solid #c69c6d;
+}
+.mid_head .search_box .txt input{
+	width: 300px;
+	border: none;
+	padding-left: 3px;
+	height: 34px;
+	line-height: 34px;
+	background: #FFFFFF;
+	color: gray;
+	outline: none;
+}
+.mid_head .search_box .txt a{
+	width: 80px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	background: #c69c6d;
+	display: inline-block;
+	float: right;
+}
+.mid_head .search_box p{
+	background: white;
+	height: 32px;
+	line-height: 32px;
+}
+.mid_head .search_box p a{
+	font-size: 11px;
+	padding-right: 25px;
+	color: #999999;
+}
+.mid_head .search_box p a:hover{
+	color: #DA3737;
+}
+.mid_head .shopping_cart{
+	color: #666;
+	float: right;
+	margin-right: 10px;
+	margin-top: 35px;
+	position: relative;
+}
+.mid_head .shopping_cart .cart{
+	border: 1px solid #ccc;
+	background: url('../img/brandstore_share.png') no-repeat -337px -405px;
+	width: 138px;
+	height: 32px;
+	line-height: 32px;
+	text-indent: 13px;
+}
+.mid_head .shopping_cart .cart span{
+	color: #d00000;
+}
+.mid_head .shopping_cart .cart img{
+	float: left;
+	width: 22px;
+	height: 24px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.mid_head .shopping_cart .empty{
+	width: 138px;
+	height: 3px;
+	background: white;
+	position: absolute;
+	top: 33px;
+	z-index: 2;
+	display: none;
+}
+.mid_head .shopping_cart .shopping_box{
+	width: 268px;
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	right: 0px;
+	display: none;
+	top: 33px;
+}
+/*mid_head结束*/
+
+/*nav开始*/
+.navwrap{
+	width: 100%;
+	background: #202020;
+}
+.nav{
+	width: 1210px;
+	margin: 0 auto;
+	height: 38px;
+}
+
+/*nav_left开始*/
+.nav_left {
+	width: 956px;
+	float: left;
+}
+.nav_left > li{
+	float: left;
+}
+.nav_left .nav_left_first{
+	width: 130px;
+}
+.nav_left .nav_left_last .icon_shop{
+	display: inline-block;
+	width: 19px;
+	height: 38px;
+	margin-left: 23px;
+	float: left;
+	background: url('../img/share02.png') no-repeat  -58px -169px;
+}
+.nav_left > li > a{
+	display: inline-block;
+	width: 82px;
+	height: 38px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #c8a985;
+} 
+.nav_left > li > a:hover{
+	color: #fff;
+}
+
+/*nav_right开始*/
+.nav_right{
+	width: 236px;
+	float: right;
+	margin-right: 16px;
+}
+.nav_right li{
+	width: 30px;
+	height: 38px;
+	float: right;
+	text-align: center;
+	overflow: hidden;
+	margin-right: 12px;
+}
+.nav_right li a{
+	color: #fff;
+	height: 38px;
+	line-height: 40px;
+	display: inline-block;
+}
+.nav_right li span{
+	display: inline-block;
+	float: left;
+	width: 30px;
+	height: 38px;
+}
+.nav_right .li0 span{
+	background: url('../img/share02.png') no-repeat -354px -66px; 
+}
+.nav_right .li1 span{
+	background: url('../img/share02.png') no-repeat -296px -66px; 
+}
+.nav_right .li2 span{
+	background: url('../img/share02.png') no-repeat -237px -66px; 
+}
+
+

@@ -1,0 +1,421 @@
+/*leatherGoods开始*/
+#leatherGoods {
+	width: 1210px;
+	margin: 0 auto;
+}
+.popular {
+	background: #f2f2f2;
+	width: 1112px;
+	position: relative;
+	overflow: hidden;
+	padding: 15px 20px 15px 78px;
+}
+.popular a{
+	display: inline-block;
+}
+/*span标签的公共样式*/
+.popular span {
+	position: absolute;
+	top: 0;
+	width: 44px;
+	height: 84px;
+	display: block;
+}
+.popular .icon01 {
+	left: 20px;
+	background: url('../img/brandstore_share.png') no-repeat -440px -218px;
+}
+.popular .icon02 {
+	left: 956px;
+	background: url('../img/brandstore_share.png') no-repeat -440px -318px;
+}
+/*时下流行*/
+.popular .popular_lt {
+	float: left;
+}
+.popular .popular_lt ul {
+	overflow: hidden;
+}
+.popular_lt ul li {
+	float: left;
+	width: 280px;
+	height: 170px;
+	margin: 0 6px;
+}
+/*品牌活动*/
+.popular .popular_rt {
+	float: right;
+}
+/*商品选择title*/
+.choice_title {
+	width: 100%;
+	padding: 8px 0;
+	overflow: hidden;
+}
+/*商品选择title左边*/
+.choice_title span {
+	float: left;
+	text-align: center;
+	min-width: 80px;
+	height: 25px;
+	line-height: 25px;
+	font-family: "宋体";
+	background-color: rgb(255, 255, 255);
+	font-size: 13px;
+	border: 1px dotted rgb(0, 0, 0);
+}
+.choice_title span:first-child {
+	padding-left: 10px;
+	border:none;
+	min-width: 40px;
+}
+.choice_title span a {
+	color: #79502d;
+}
+.choice_title b {
+	width: 28px;
+	height: 18px;
+	float: left;
+	margin-bottom: -2px;
+	display: inline-block;
+	background: url('../img/brandstore_share.png') no-repeat -106px -290px;
+}
+/*商品选择title右边*/
+.choice_title p {
+	float: right;
+	line-height: 27px;
+	height: 27px;
+	padding-right: 20px;
+	font-size: 13px;
+	color: #666;
+}
+/*商品选择列表*/
+.choice_list {
+	width: 1210px;
+	position: relative;
+	border: 1px solid #bfbfbf;
+}
+.choice_list li {
+	width: 100%;
+	background-color: #ebebeb;
+	overflow: hidden;
+	font-size: 13px;
+}
+/*商品选择大分类*/
+.choice_list li .li_tlt {
+	width: 130px;
+	float: left;
+	font-weight: bold;
+	color: #6e3e0e;
+	text-indent: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+/*商品选择小分类*/
+.choice_list li .choice_box {
+	width: 1080px;
+	float: left;
+	padding-bottom: 10px;
+	overflow: hidden;
+	background-color: #fff;
+	min-height: 45px;
+}
+.choice_box .alpha_choice {
+	padding: 11px 10px;
+	border-bottom: 1px solid #e7e7e7;
+	overflow: hidden;
+}
+.choice_box .alpha_choice span:first-child {
+	width: 75px;
+	padding: 0 7px;
+}
+.choice_box .alpha_choice span {
+	float: left;
+	width: 25px;
+	height: 22px;
+	line-height: 22px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 3px;
+}
+.choice_box .alpha_choice .all_more {
+	background-color: #c6c4c4;
+	color: #757272;
+	display: inline-block;
+	width: 50px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	height: 22px;
+	line-height: 22px;
+	font-style: normal;
+}
+.choice_box .alpha_choice span:hover {
+	background-color: #c69c6d;
+}
+/*品牌详细分类*/
+.alpha_choice_cont {
+	max-height: 200px;
+	overflow: auto;
+	position: relative;
+	padding-left: 13px;
+}
+.alpha_choice_cont a{
+	display: inline-block;
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 10px 10px 0;
+	color: #6e3e0e;
+	padding: 0 7px;
+}
+/*公共样式：鼠标移上子分类，背景颜色和字体颜色改变*/
+.child_choice a:hover {
+	color: #fff;
+	background-color: #C69C6D;
+}
+.child_choice {
+	width: 1080px;
+	height: auto;
+	margin-left: 10px;
+	display: inline-block;
+	line-height: 40px;
+}
+/*子分类 a 的公共样式*/
+.child_choice a {
+	display: inline-block;
+	color: #6e3e0e;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 7px;
+	margin: 8px 5px 0 5px;
+	font-size: 12px;
+}
+.child_choice a:first-child {
+	background-color: #c69c6d;
+	color: #fff;
+}
+.alpha_choice_cont a:first-child {
+	background-color: white;
+	color: #6e3e0e;
+	height: 22px;
+	line-height: 22px;
+}
+.alpha_choice_cont a:first-child:hover{
+	background-color: #c69c6d;
+	color: #fff;
+}
+/*改变分类的大小的div*/
+.change_size {
+	width: 278px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	border-top: none;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -139px;
+	bottom: -26px;
+	cursor: pointer;
+}
+.change_size b {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 10px;
+	height: 25px;
+	background-image: url('../img/brandstore_share.png');
+	background-repeat: no-repeat;
+	background-position: -75px -292px;
+}
+/*商品展示开始*/
+.goods_show_tlt {
+	margin-top: 35px;
+	padding: 9px;
+	background: #f2f2f2;
+	font-size: 13px;
+	width: 100%;
+	overflow: hidden;
+}
+.goods_show_tlt ul {
+	float: left;
+	width: 310px;
+	height: 25px;
+	line-height: 25px;
+	background: #fff;
+	border:1px solid #c9c9c9;
+	overflow: hidden;
+}
+.goods_show_tlt ul li{
+	width: 50px;
+	float: left;
+	padding-left: 10px;
+	border-right: 1px solid #c9c9c9; 
+}
+.goods_show_tlt ul li:first-child {
+	background: #c69c6d;
+	position: relative;
+}
+.goods_show_tlt ul li:first-child a {
+	color: #fff;
+}
+.goods_show_tlt ul li:last-child {
+	border-right: none;
+	position: relative;
+}
+/*商品title左边ul中的背景图标*/
+/*公共样式*/
+.goods_show_tlt ul li i {
+	width: 10px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+.goods_show_tlt ul li:first-child i {
+	height: 25px;
+	line-height: 25px;
+	background: url('../img/brandstore_share.png') no-repeat -314px -230px;
+}
+.goods_show_tlt ul li:last-child i {
+	line-height: 27px;
+	height: 27px;
+	background: url('../img/brandstore_share.png') no-repeat -274px -230px;
+}
+/*商品展示title右侧样式*/
+.goods_show_tlt p {
+	width: 130px;
+	text-align: center;
+	float: right;
+	height: 27px;
+	line-height: 27px;
+}
+.goods_show_tlt p span {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+}
+.goods_show_tlt p b {
+	display: inline-block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 2px;
+	border: 1px solid #c9c9c9;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.goods_show_tlt p .arrow_lt {
+	background: url('../img/brandstore_share.png') no-repeat -390px -234px;
+}
+.goods_show_tlt p .arrow_rt {
+	background: url('../img/brandstore_share.png') no-repeat -350px -233px;
+}
+/*商品展示开始*/
+.goods_show_box {
+	width: 1208px;
+	margin: 0 auto;
+	background: #fff;
+	padding-top: 1px;
+}
+.goods_show_box ul {
+	width: 100%;
+	overflow: hidden;
+}
+.goods_show_box ul li {
+	width: 270px;
+	height: 460px;
+	border: 10px solid #fff;
+	float: left;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 20px;
+	position: relative;
+}
+/*商品展示 dt设置*/
+.goods_show_box dt {
+	width: 267px;
+	height: 310px;
+	margin: 0 auto;
+}
+.goods_show_box dt a {
+	display: inline-block;
+}
+.goods_show_box dt img {
+	width: 267px;
+}
+/*商品展示 dd 设置*/
+.goods_show_box dd {
+	text-align: center;
+}
+.goods_show_box dd .price {
+	color: #c2a67d;
+}
+.goods_show_box dd span {
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	display: none;
+	position: absolute;
+	bottom: 10px;	
+	background: red;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+.goods_show_box dd .toStore {
+	left: 20px;
+}
+.goods_show_box dd .toCart{
+	right: 20px;
+}
+.pages_icon {
+	width: 1000px;
+	margin: 30px auto;
+	line-height: 30px;
+	text-align: center;
+}
+.pages_icon span {
+	margin: 0 2px;
+	display: inline-block;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 13px;
+	color: #666;
+	border: 1px solid #c69c6d;
+	text-align: center;
+	background: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+.pages_icon .on {
+	background: #c69c6d;
+	color: #fff;
+}
+
+/*闪电发货样式*/
+.goods_show_box .deliverFast {
+	background: url('../img/share02.png') no-repeat -159px -55px;
+	width: 62px;
+	height: 62px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.goods_show_box .sellout {
+	background: url('../img/share02.png') no-repeat 0 0;
+	width: 222px;
+	height: 45px;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -111px;
+}

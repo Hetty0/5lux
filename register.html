@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<style type='text/css'></style>
+<link rel='stylesheet' type="text/css" href='css/common.css' />
+<link rel='stylesheet' type="text/css" href='css/base.css' />
+<link rel='stylesheet' type="text/css" href='css/register.css' />
+<link rel='stylesheet' type="text/css" href='css/register_login.css' />
+<link rel='stylesheet' type="text/css" href='css/foot.css' />
+<script type="text/javascript" src='js/jquery-1.11.3.js'></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src='js/register.js'></script>
+<script type="text/javascript" src='js/base.js'></script>
+<script type="text/javascript" src='js/goodsCookie.js'></script>
+</head>
+<body>
+	<!-- 页面开始啦！！！ -->
+	<!-- top开始 -->
+	<div class = topwrap>
+		<div class = top>
+			<div class = 'logo'>
+				<a href = 'index.html'>
+					<img src="img/v30_5luxlogo.png" alt = 'logo' title />
+				</a>
+				<span>注册第五大道</span>
+			</div>
+			<p class = 'regi_tel'>
+				客服热线400-660-5610
+			</p>
+		</div>
+	</div>
+	<!-- banner开始 -->
+	<div class = 'regi_banner_wrap'>
+		<div class = 'regi_banner'>
+			<div class = 'regi_banner_left'></div>
+			<!-- 账号注册模块 -->
+			<div class = 'register'>
+				<div class = 'regi_box'>
+					<form action = 'login.html' method = 'post'>
+						<input type = 'hidden' name = 'username' />
+						<input type = 'hidden' name = 'email' />
+						<ul>
+							<li class = 'regi_title'><span>使用手机注册</span></li>
+							<li class = 'regi_msg recon_tel'>
+								<label for = 'regi_phone'>您的手机：</label>
+								<input id = 'regi_phone' type = 'text' />
+								<span class = 'remind_tips'></span>
+								<span class = 'getcode'>获取验证码</span>
+							</li>
+							<li class = 'regi_msg'>
+								<label for = 'regi_code'>手机验证码：</label>
+								<input id = 'regi_code' type = 'text' />
+								<span class = 'remind_tips'></span>
+							</li>
+							<li class = 'regi_msg'>
+								<label for = 'regi_pwd'>密码：</label>
+								<input id = 'regi_pwd' type = 'password' />
+								<span class = 'remind_tips'></span>
+							</li>
+							<li class = 'regi_msg'>
+								<label for = 'confir_pwd'>确认密码：</label>
+								<input id = 'confir_pwd' type = 'password' />
+								<span class = 'remind_tips'></span>
+							</li>
+							<li class = 'regi_agree'>
+								<input checked = 'checked' id = 'confir_pwd' type = 'checkbox' name = 'agree' />
+								我已阅读并同意
+								<a href="#">
+									《第五大道商城服务条款》
+								</a>
+							</li>
+							<li>
+								<input class = 'regi_btn' type = 'submit' value = '注册' />
+							</li>
+							<li class = 'regi_login'>
+								<span>已有账号？</span>
+								<a href="login.html">立即登录</a>
+							</li>
+							<li class = 'btm_tips'>
+								立即注册免费获得<span>1880元</span>优惠券
+							</li>
+
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 整个foot开始 -->
+	<div id = 'foot_container'>
+		<div class = 'foot_top'>
+			<dl>
+				<dt>
+					<a href="http://www.5lux.com.cn/help/question/94">
+						<img src="img/footer_icon01.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<h4>正品保障</h4>
+					<a href="http://www.5lux.com.cn/help/question/94">品牌授权,官方验真</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="http://www.5lux.com.cn/help/question/178">
+						<img src="img/footer_icon02.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<h4>专柜发货</h4>
+					<a href="http://www.5lux.com.cn/help/question/178">专柜直接或到店自提</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="http://www.5lux.com.cn/help/question/105">
+						<img src="img/footer_icon03.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<h4>无忧售后</h4>
+					<a href="http://www.5lux.com.cn/help/question/105">7天无理由退换货</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="http://www.5lux.com.cn/help/question/40">
+						<img src="img/footer_icon04.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<h4>VIP服务</h4>
+					<a href="http://www.5lux.com.cn/help/question/40">享品牌会员售前售后服务</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="http://cxb.12312.gov.cn/tub/pages/main/FrontCorpInfoView,S53d884ea4a5643c9014b107c61a80004.html">
+						<img src="img/footer_icon05.jpg" />
+					</a>
+				</dt>
+				<dd>
+					<h4>权威荣誉</h4>
+					<a href="http://cxb.12312.gov.cn/tub/pages/main/FrontCorpInfoView,S53d884ea4a5643c9014b107c61a80004.html">商务部授予诚信示范企业</a>
+				</dd>
+			</dl>
+		</div>
+		<div class = 'foot_ctrwrap'>
+			<ul class = 'foot_ctr'>
+				<li>
+					<h4>服务保障</h4>
+					<ul>
+						<li><a href="#">品牌授权正品</a></li>
+						<li><a href="#">品牌客服</a></li>
+						<li><a href="#">预约到店体验</a></li>
+						<li><a href="#">7天无理由退换</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>使用帮助</h4>
+					<ul>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">会员制度</a></li>
+						<li><a href="#">集团采购</a></li>
+						<li><a href="#">礼品卡</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>支付方式</h4>
+					<ul>
+						<li><a href="#">到店付款</a></li>
+						<li><a href="#">货到付款</a></li>
+						<li><a href="#">在线支付</a></li>
+						<li><a href="#">余额支付</a></li>
+						<li><a href="#">分期付款</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>配送方式</h4>
+					<ul>
+						<li><a href="#">配送说明</a></li>
+						<li><a href="#">到店自提</a></li>
+						<li><a href="#">运费说明</a></li>
+						<li><a href="#">验货签收</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4>售后服务</h4>
+					<ul>
+						<li><a href="#">品牌售后</a></li>
+						<li><a href="#">售后咨询</a></li>
+						<li><a href="#">退换政策</a></li>
+						<li><a href="#">发票保证</a></li>
+					</ul>
+				</li>
+				<li class = 'ft_app'>
+					<h4>第五大道APP</h4>
+					<img src='img/footer_app.jpg' />
+				</li>
+				<li class = 'ft_blog'>
+					<h4>第五大道微博</h4>
+					<img src='img/footer_blog.jpg' />
+				</li>
+			</ul>
+		</div>
+		<div class = 'foot_btm'>
+			<p class = 'foot_class'>
+				<a href="#">箱包</a>|
+				<a href="#">美妆</a>|
+				<a href="#">服饰</a>|
+				<a href="#">腕表</a>|
+				<a href="#">配饰</a>|
+				<a href="#">鞋靴</a>|
+				<a href="#">特惠</a>|
+				<a href="#">名品闪购</a>|
+				<a href="#">礼品区</a>
+			</p>
+			<p class = 'frindlink'>
+				<a href="#">关于第五大道</a>|
+				<a href="#">网站地图</a>|
+				<a href="#">品牌合作专区</a>|
+				<a href="#">媒体聚焦</a>|
+				<a href="#">商务合作</a>|
+				<a href="#">商家合作</a>|
+				<a href="#">加入第五大道</a>|
+				<a href="#">友情链接</a>|
+				<a href="#">奢尚志</a>|
+				<a href="#">联系我们</a>|
+				<a href="#">投诉建议</a>
+			</p>
+			<p>Copyright&nbsp;&copy;&nbsp;2008-2006&nbsp;瑞美嘉信国际信息技术(北京)有限公司&nbsp;版权所有京ICP备09012701号-1&nbsp;视频经营许可证号：</p>
+			<div class = 'foot_img'>
+				<a href="#">
+					<img src="img/foot_img01.jpg" />
+				</a>
+				<a href="#">
+					<img src="img/foot_img02.jpg" />
+				</a>
+				<a href="#">
+					<img src="img/foot_img03.jpg" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- foot结束 -->
+	<!-- 页面底部下载APP -->
+	<div class = 'download_app_wrap'>
+		<div class = 'download_app'>
+			<img src = 'img/regi_fixed.png' />
+			<img class = 'fixed_code' src = 'img/fixed_code.png' />
+			<span class = 'fixed_close'></span>
+		</div>
+	</div>
+	<!-- 页面右侧栏 -->
+	<div id = 'right_menu'>
+		<dl>
+			<dt>
+				<div class = 'menu_mid'>
+					<ul>
+						<li class = 'menu_cart'></li>
+						<li class = 'menu_assets'>
+							<div class = 'tabtip'>
+								<span>我的资产</span>
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+						<li class = 'menu_like'>
+							<div class = 'tabtip'>
+								<span>我喜欢的商品</span>
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+						<li class = 'menu_serve'>
+							<div class = 'tabtip'>
+								<span>联系客服</span>
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+					</ul>
+					<div class='newAddGood'>
+						<i class='close_icon'></i>
+						<div class='mcar_txt'>
+							<i></i>
+							<div class = 'mcar_txtx'>
+								<p class='mcar_line1'>
+									<b>
+										商品成功放入购物袋，我的购物袋有
+										<span>0<span>
+										件商品
+									</b>
+								</p>
+								<p class='mcar_line2'>
+									共计￥<span>0</span>元，可以<a href='shoppingcart.html'>去购物袋结算</a>
+								</p>
+							</div>
+						</div>
+						<div class = 'mcar_similar'>
+							<p class = 'mcar_similar_tlt'>同类商品推荐</p>
+							<ul class = 'mcar_similar_goods'>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class = 'menu_btm'>
+					<ul>
+						<li class = 'menu_wx'>
+							<div class = 'tabtip'>
+								<img src="img/weixin_img.png" />
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+						<li class = 'menu_pen'>
+							<div class = 'tabtip'>
+								<span>意见反馈</span>
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+						<li class = 'menu_tel'>
+							<div class = 'tabtip'>
+								<span>联系我们</span>
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+						<li class = 'menu_gotop'>
+							<div class = 'tabtip'>
+								<span>返回顶部</span>
+								<b class = 'menu_arrow'>◆</b>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</dt>
+			<dd>
+				<h3>购物袋<span class = 'close_menu_right'></span></h3>
+				<div class = 'menu_shopping_box'>
+					<div>
+						<img src="img/shopping_bag.png" />
+					</div>
+					<p>您的购物袋还没有商品</p>
+					<p>再去逛逛吧！</p>
+				</div>
+			</dd>
+		</dl>
+	</div>
+</body>
+<script type="text/javascript">
+</script>
+</html>

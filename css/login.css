@@ -1,0 +1,129 @@
+/*注册banner部分*/
+.regi_banner_wrap {
+	background: url('../img/bai-bg.jpg') no-repeat;
+}
+.regi_banner {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+/*banner上的文字图片*/
+.regi_banner_left {
+	width: 705px;
+	height: 680px;
+	margin-left: -140px;
+	background: url('../img/baijin-icon.png') no-repeat;
+}
+/*登陆栏*/
+.register {
+	width: 450px;
+	background: #fff;
+	position: absolute;
+	top: 47px;
+	right: 0;
+}
+.regi_box {
+	width: 330px;
+	margin: 45px auto;
+}
+/*登陆title样式*/
+.login_title {
+	width: 100%;
+	padding-bottom: 12px;
+	color: #6d6d6d;
+	font-size: 15px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 32px;
+}
+/*设置用户名和密码样式*/
+.login_icon {
+	height: 64px;
+	padding-left: 25px;
+}
+.login_icon input {
+	width: 250px;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	text-indent: 2.8em;
+}
+.login_user {
+	background: url('../img/login_reg_input_user_bg.jpg') no-repeat left center;
+}
+.login_pwd {
+	background: url('../img/login_reg_input_pw_bg.jpg') no-repeat left center;
+}
+.login_tips {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	line-height: 15px;
+	vertical-align: middle;
+	width: 212px;
+}
+/*设置remindMe样式*/
+.remindMe {
+	padding-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.remindMe input {
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.remindMe span {
+	float: left;
+}
+.remindMe a {
+	color: #a78668;
+	text-decoration: underline;
+	margin-left: 45px;
+}
+/*登陆按钮样式*/
+.login {
+	padding-left: 25px;
+	margin-top: 10px;
+}
+.login input {
+	display: inline;
+	width: 250px;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 16px;
+	border: 0;
+	cursor: pointer;
+	overflow: hidden;
+	background: #cf0101;
+}
+/*没有账户，需要注册*/
+.regiNow {
+	text-align: right;
+	padding: 20px 25px 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+.regiNow a {
+	text-decoration: underline;
+	color: #a78668;
+	margin-left: 10px;
+}
+.login_link {
+	padding-top: 20px;
+	text-align: center;
+}
+.login_link p {
+	padding-left: 38px;
+	text-align: left;
+	height: 28px;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dt,dd,form,fieldset,legend,input,textarea,select,a{
+	margin:0;padding:0
+}
+body{
+	font:12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+	color:#000;-webkit-text-size-adjust:none;
+}
+table,tr,td,th{
+	border:none;
+	text-align:left;
+}
+table{
+	border-collapse:collapse;
+}
+i{
+	font-style: normal;
+}
+ul li{
+	list-style:none;
+}
+ul.nav a {zoom:1;} 
+a img {
+	border:none;
+}
+em{
+	font-style:normal;
+}
+a:link {
+	color:inherit;
+	text-decoration:none;
+}
+a:visited {
+	color:inherit;
+	text-decoration:none;
+}
+a:hover{
+	color: #b28247;
+}
+a:active, a:focus {
+	color:inherit;
+	text-decoration:none;
+}

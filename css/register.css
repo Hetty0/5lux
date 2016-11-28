@@ -1,0 +1,141 @@
+
+/*注册banner部分*/
+.regi_banner_wrap {
+	background: url('../img/regi_bg.jpg') no-repeat;
+}
+.regi_banner {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+/*banner上的文字图片*/
+.regi_banner_left {
+	width: 705px;
+	height: 680px;
+	margin-left: -114px;
+	background: url('../img/regi_left.png') no-repeat;
+}
+/*注册栏*/
+.register {
+	width: 450px;
+	background: #fff;
+	position: absolute;
+	top: 47px;
+	right: 0;
+}
+.regi_box {
+	width: 330px;
+	margin: 45px auto;
+	margin-top: 15px;
+}
+/*注册模块*/
+.register ul {
+	position: relative;
+}
+/*注册信息标题*/
+.regi_title {
+	font-size: 12px;
+	color: #7b7c7c;
+	font-family: Helvetica;
+	border-bottom: #ccc solid 1px;
+	padding-bottom: 1px;
+	margin-bottom: 32px;
+}
+.regi_title span {
+	text-align: center;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 2px 20px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	background-color: #000;
+	color: #fff;
+}
+/*注册消息公共样式*/
+.regi_msg {
+	padding-left: 2px;
+	height: 64px;
+}
+.regi_msg label {
+	width: 72px;
+	float: left;
+	text-align: right;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+.regi_msg input {
+	width: 210px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+}
+/*账号输入提示信息*/
+.remind_tips {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	line-height: 15px;
+	vertical-align: middle;
+	width: 212px;
+	margin-left: 74px;
+}
+/*获取验证码样式*/
+.recon_tel {
+	position: relative;
+}
+.recon_tel .getcode {
+	width: 70px;
+	line-height: 25px;
+	height: 25px;
+	border: 1px solid #ccc;
+	color: #000;
+	position: absolute;
+	right: -30px;
+	top: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.recon_tel .getcode:hover {
+	background: #a78668;
+	color: #fff;
+}
+/*同意条款样式*/
+.regi_agree {
+	margin-left: 62px;
+	margin-bottom: 20px;
+}
+/*注册按钮样式*/
+.regi_btn {
+	width: 210px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 72px;
+	color: #fff;
+	font-size: 16px;
+	border: 0;
+	cursor: pointer;
+	overflow: hidden;
+	background: #cf0101;
+	outline: none;
+}
+/*立即登录样式*/
+.regi_login {
+	margin-top: 10px;
+	text-align: right;
+	padding: 20px 25px 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+/*注册领取优惠券样式*/
+.btm_tips {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+/*对底部的二维码进行特殊修改*/
+.fixed_code {
+	left: 267px;
+}
